@@ -1,6 +1,6 @@
 # Only attack enemies of type "munchkin" and "thrower".
 # Don't attack a "burl". Run away from an "ogre"!
-loop:
+while true:
     enemy = self.findNearestEnemy()
     
     # Remember: don't attack type "burl"!
